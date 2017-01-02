@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0D2EAE1E17441100B7EE56 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F0D2EAD1E17441100B7EE56 /* still time.ttf */; };
+		4F0D2EB01E17583F00B7EE56 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D2EAF1E17583F00B7EE56 /* VideoVC.swift */; };
+		4F0D2EB21E1764EE00B7EE56 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D2EB11E1764EE00B7EE56 /* PartyCell.swift */; };
+		4F94BBE01E19DC3E00C68F12 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F94BBDF1E19DC3E00C68F12 /* PartyRock.swift */; };
 		4FC15F0D1E15E14200185A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC15F0C1E15E14200185A7C /* AppDelegate.swift */; };
-		4FC15F0F1E15E14200185A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC15F0E1E15E14200185A7C /* ViewController.swift */; };
+		4FC15F0F1E15E14200185A7C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC15F0E1E15E14200185A7C /* MainVC.swift */; };
 		4FC15F121E15E14200185A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC15F101E15E14200185A7C /* Main.storyboard */; };
 		4FC15F141E15E14200185A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC15F131E15E14200185A7C /* Assets.xcassets */; };
 		4FC15F171E15E14200185A7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC15F151E15E14200185A7C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F0D2EAD1E17441100B7EE56 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		4F0D2EAF1E17583F00B7EE56 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		4F0D2EB11E1764EE00B7EE56 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		4F94BBDF1E19DC3E00C68F12 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 		4FC15F091E15E14200185A7C /* PartyRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC15F0C1E15E14200185A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FC15F0E1E15E14200185A7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FC15F0E1E15E14200185A7C /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4FC15F111E15E14200185A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FC15F131E15E14200185A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FC15F161E15E14200185A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0D2EAB1E17422300B7EE56 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				4F0D2EAD1E17441100B7EE56 /* still time.ttf */,
+			);
+			name = files;
+			sourceTree = "<group>";
+		};
 		4FC15F001E15E14200185A7C = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +70,42 @@
 		4FC15F0B1E15E14200185A7C /* PartyRock */ = {
 			isa = PBXGroup;
 			children = (
+				4F0D2EAB1E17422300B7EE56 /* files */,
+				4FC15F201E16D98200185A7C /* Controller */,
+				4FC15F1F1E16D97C00185A7C /* Model */,
+				4FC15F1E1E16D97500185A7C /* View */,
 				4FC15F0C1E15E14200185A7C /* AppDelegate.swift */,
-				4FC15F0E1E15E14200185A7C /* ViewController.swift */,
 				4FC15F101E15E14200185A7C /* Main.storyboard */,
 				4FC15F131E15E14200185A7C /* Assets.xcassets */,
 				4FC15F151E15E14200185A7C /* LaunchScreen.storyboard */,
 				4FC15F181E15E14200185A7C /* Info.plist */,
 			);
 			path = PartyRock;
+			sourceTree = "<group>";
+		};
+		4FC15F1E1E16D97500185A7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F0D2EB11E1764EE00B7EE56 /* PartyCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4FC15F1F1E16D97C00185A7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F94BBDF1E19DC3E00C68F12 /* PartyRock.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4FC15F201E16D98200185A7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FC15F0E1E15E14200185A7C /* MainVC.swift */,
+				4F0D2EAF1E17583F00B7EE56 /* VideoVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FC15F171E15E14200185A7C /* LaunchScreen.storyboard in Resources */,
+				4F0D2EAE1E17441100B7EE56 /* still time.ttf in Resources */,
 				4FC15F141E15E14200185A7C /* Assets.xcassets in Resources */,
 				4FC15F121E15E14200185A7C /* Main.storyboard in Resources */,
 			);
@@ -136,7 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC15F0F1E15E14200185A7C /* ViewController.swift in Sources */,
+				4F0D2EB01E17583F00B7EE56 /* VideoVC.swift in Sources */,
+				4FC15F0F1E15E14200185A7C /* MainVC.swift in Sources */,
+				4F94BBE01E19DC3E00C68F12 /* PartyRock.swift in Sources */,
+				4F0D2EB21E1764EE00B7EE56 /* PartyCell.swift in Sources */,
 				4FC15F0D1E15E14200185A7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +347,7 @@
 				4FC15F1D1E15E14200185A7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
